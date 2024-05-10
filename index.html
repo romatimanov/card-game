@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+
+    <title>Card game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="timer">
+        <div class="btn-group">
+          <button class="btn-num btn">игра с числами</button>
+          <button class="btn-img btn">игра с картинками</button>
+        </div>
+        <label class="label" for="inp"
+          >Ведите количество карточек по вертикали/горизонтали -
+          2/4/6/8/10</label
+        >
+        <input id="inp" type="text" class="input" />
+        <div class="num">60</div>
+      </div>
+      <div class="game__over">Game Over</div>
+      <div class="game__win">You Win</div>
+      <div id="page" class="page"></div>
+    </div>
+  </body>
+</html>
